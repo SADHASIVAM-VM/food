@@ -1,0 +1,19 @@
+.overflowscroll::-webkit-scrollbar{
+display: none;
+
+}
+.overflowscroll{
+    overflow: scroll;
+}
+
+.hoverline{
+border:3px solid orangered;
+border-radius: 50%;
+padding: 2px;
+
+}
+
+.imgcont img{
+    width: 100%;
+    height: 100%;
+}

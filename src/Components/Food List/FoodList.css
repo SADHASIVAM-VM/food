@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* default to 2 columns */
+    gap: 1rem; /* adjust as needed */
+}
+
+@media screen and (max-width: 450px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* switch to 1 column */
+    }
+}

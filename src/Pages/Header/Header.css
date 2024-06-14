@@ -1,0 +1,17 @@
+.header{
+ 
+    height: 34vw;
+    margin:30px auto;
+    background: url('../../assets/header_img.png') no-repeat ;
+    background-size: cover;
+    position: relative;
+    
+}
+.header::before{
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}   

@@ -1,0 +1,13 @@
+ul li:hover{
+    color: green;
+    cursor: pointer;
+    scale: 1.1;
+}
+.dot{
+   
+    display: block;
+    position: absolute;
+    height:10px;
+    left:47px;
+    top:2px;
+}
